@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neon Logistics</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mediaqueries.css" />
+    <link rel="icon" type="image/x-icon" href="" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">
+        <h1><span class="halflogo">neon</span>logistics</h1>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li class="dropdown active"><a href="#">home</a></li>
+        <li class="dropdown">
+          <a href="#">about us <i class="fa-solid fa-chevron-down"></i></a>
+          <div class="dropdown-content">
+            <a href="#">current vacancies</a>
+            <a href="#">neon logistics intl.</a>
+            <a href="#">blog</a>
+            <a href="#">privacy protection policy</a>
+            <a href="#">social responsibility</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#">services<i class="fa-solid fa-chevron-down"></i></a>
+          <div class="dropdown-content">
+            <a href="#">art shipping</a>
+            <a href="#">event logistics</a>
+            <a href="#">air freight</a>
+            <a href="#">sea freight</a>
+            <a href="#">road freight</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#">contact <i class="fa-solid fa-chevron-down"></i></a>
+          <div class="dropdown-content">
+            <a href="#">quotation request</a>
+            <a href="#">event & freight order form</a>
+            <a href="#">air order form</a>
+            <a href="#">make a payment</a>
+            <a href="#">survey</a>
+          </div>
+        </li>
+      </ul>
+      <div class="search">
+        <input
+          type="text"
+          id="search"
+          name="search"
+          placeholder="Search..."
+          size="20"
+        />
+        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+      </div>
+      <div class="burger" onclick="toggleNav()">&#9776;</div>
+    </header>
+
+    <section class="hero">
+      <div class="overlay">
+        <div class="hero-text">
+          <h1 class="trans-text">welcome to neonlogistics</h1>
+          <p>
+            The only logistics & shipping partner you will ever need. Specialist
+            freight & logistics for events, art & express shipping.
+          </p>
+
+          <p>
+            With our global extensive experience of moving freight, artworks,
+            exhibition stands and equipments, it&apos;s the only phone call you
+            ever need make.
+          </p>
+
+          <ul>
+            <li><a href="#">art services</a></li>
+            <li><a href="#" class="hero-link">exhibitions</a></li>
+            <li><a href="#">freight</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="free-quote">
+      <div class="quote-container">
+        <div class="quote-text">
+          <h1>Obligation free quote</h1>
+          <p>
+            You can easily request a non-binding quote via the quote form. You
+            will receive a response from one of our specialists within a few
+            hours. For questions you can always contact us by phone or send an
+            e-mail. This way there is always a contact method that suits your
+            question or comment. You will eventually receive the quote in your
+            own environment within our customer portal. There you view the
+            quote, chat live with your contact person, approve the quote and
+            follow the live location of your container.
+          </p>
+          <p>
+            You will have your own contact person throughout the entire process.
+            So you always know who to contact for all your questions. The
+            contact details of this person are also included with the shipment
+            details and in the live chat. All other information you need can
+            also be found in the TransPortal.
+          </p>
+        </div>
+        <div class="quote-request">
+          <a href="" class="quote-link">Request quote</a>
+          <a href="" class="contact-links"
+            ><i class="fas fa-message"></i> open the live chat</a
+          >
+          <a href="" class="contact-links"
+            ><i class="fas fa-phone"></i> +31 (0)88 4430 767</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="sea-freight">
+      <div class="sea-container">
+        <div class="sea-image">
+          <img src="./assets/sea-freight.png" alt="" />
+        </div>
+        <div class="sea-text">
+          <h1>Worldwide sea freight</h1>
+          <p>
+            At NeonLogistics we specialize in sea freight shipments. Because we
+            work as an independent freight forwarder, we have options for
+            destinations all over the world. We know exactly which shipping
+            company is cheapest for which destination and can therefore choose
+            the right price-quality ratio. We can make this possible
+          </p>
+          <p>
+            For all sea freight shipments we have the option of, for example,
+            door to door delivery or port to port. This allows us to take the
+            entire logistics process off your hands. Our
+            <span>specialists</span> are happy to tell you what is possible.
+            Simply send us an email or contact us through our various social
+            media platforms.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="connect">
+      <div class="connect-text">
+        <h3>Connect with us</h3>
+      </div>
+      <ul class="connect-media">
+        <li>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-envelope"></i></a>
+        </li>
+      </ul>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

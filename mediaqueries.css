@@ -1,0 +1,149 @@
+/* media queries  */
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 60%;
+  }
+  .navbar {
+    padding: 0 3rem;
+  }
+  .nav-links {
+    display: none; /* Hide menu items on mobile */
+    /* flex-direction: column; */
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    top: 7.6rem;
+    right: 0;
+    z-index: 6;
+  }
+
+  .nav-links.active {
+    display: flex; /* Show menu when burger is clicked */
+  }
+  .dropdown-content {
+    /* min-width: 16rem; */
+    top: 4.2rem;
+  }
+
+  .burger {
+    display: block; /* Show burger menu */
+  }
+
+  .burger.active + .nav-links {
+    display: flex; /* Show menu when burger is clicked */
+  }
+  .hero {
+    height: 80vh;
+  }
+  .quote-container {
+    width: 90%;
+    height: auto;
+    margin: 5rem auto;
+    padding: 3rem 1rem;
+  }
+  .sea-container {
+    width: 90%;
+    height: auto;
+    margin: 5rem auto;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  .navbar {
+    padding: 0 2rem;
+  }
+  .logo h1 {
+    margin-left: 0;
+  }
+
+  .nav-links {
+    display: none; /* Hide menu items on mobile */
+    /* flex-direction: column; */
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    top: 7.6rem;
+    right: 0;
+    z-index: 6;
+  }
+
+  .nav-links.active {
+    display: flex; /* Show menu when burger is clicked */
+  }
+  .dropdown-content {
+    min-width: 16rem;
+    top: 4.2rem;
+  }
+
+  .burger {
+    display: block; /* Show burger menu */
+  }
+
+  .burger.active + .nav-links {
+    display: flex; /* Show menu when burger is clicked */
+  }
+  .hero {
+    height: 80vh;
+  }
+  .hero-text {
+    width: 100%;
+  }
+  .trans-text {
+    font-size: 3rem;
+  }
+  .hero-text p {
+    font-size: 1.8rem;
+    width: 100%;
+  }
+  .hero-text ul {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  .hero-text a {
+    display: block;
+    width: 50rem;
+    margin: 1rem;
+  }
+  .quote-container {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    margin: 5rem auto;
+    padding: 3rem 1rem;
+  }
+  .sea-container {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    margin: 1rem auto;
+    padding: 0 1rem;
+  }
+  .sea-image {
+    width: 100%;
+  }
+  .sea-text {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .connect {
+    margin: 5rem 0;
+  }
+  ul.connect-media {
+    flex-wrap: wrap;
+  }
+}
