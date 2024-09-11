@@ -13,7 +13,7 @@ the use dropdown, flexbox, and a little Javascript.
 
 \*Implement responsiveness for tablet and mobile screens.
 
-## GitHub Pages - https://ibeo-gh.github.io/Wattos-word/
+## GitHub Pages - https://ibeo-gh.github.io/Neon-Logistics/
 
 ## Screenshot of how it looks
 
